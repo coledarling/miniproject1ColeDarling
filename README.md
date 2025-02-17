@@ -30,7 +30,7 @@ python main.py
 
 ### Output
 
-This should create 5 individual graphs within a charts for each of the 5 stocks.
+This should create 5 individual graphs within charts for each of the 5 stocks.
 
 
 ## Authors
