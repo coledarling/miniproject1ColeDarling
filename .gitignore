@@ -169,6 +169,5 @@ cython_debug/
 
 charts/*.png
 
-
 # PyPI configuration file
 .pypirc
