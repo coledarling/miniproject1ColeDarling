@@ -12,9 +12,6 @@ os.makedirs("charts", exist_ok=True)
 
 mytickers = ["MSFT", "AAPL", "META", "GME", "AMC"]
 
-mydata={}
-
-mytickers.sort()
 for ticker in mytickers:
     result = yf.Ticker(ticker)
     hist = result.history(period="10d")
