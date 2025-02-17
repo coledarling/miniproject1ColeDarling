@@ -17,10 +17,6 @@ This project will be using the packages NumPy and Matplotlib in order to create 
 pip install -r requirements.txt
 ```
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
