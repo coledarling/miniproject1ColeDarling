@@ -24,18 +24,14 @@ pip install -r requirements.txt
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+python main.py
 ```
 
-## Help
+### Output
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+This should create 5 grpahs within a chart for each of the 5 stocks.
+
 
 ## Authors
 
