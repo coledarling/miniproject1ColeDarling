@@ -6,6 +6,9 @@ import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
+import os
+
+os.makedirs("charts", exist_ok=True)
 
 mytickers = ["MSFT", "AAPL", "META", "GME", "AMC"]
 
@@ -32,7 +35,6 @@ for ticker in mytickers:
         plt.axis((9, 0, min_price, max_price))
         plt.title(f"{ticker} Last 10 Closing Prices")
         plt.savefig(f"charts/{ticker}.png")
-
     else:
         print(f"Do not have 10 days of data. Only have {len(last10days)} days.")
 
