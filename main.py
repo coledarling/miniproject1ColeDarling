@@ -16,7 +16,7 @@ os.makedirs("charts", exist_ok=True)
 today = datetime.now()
 
 #Calculate the date 10 days ago
-ten_days_ago = today - timedelta(days=15)
+ten_days_ago = today - timedelta(days=14)
 
 myTickers = ["MSFT", "AAPL", "META", "GME", "AMC"]
 
