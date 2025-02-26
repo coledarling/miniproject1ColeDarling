@@ -16,7 +16,7 @@ os.makedirs("charts", exist_ok=True)
 today = datetime.now()
 
 #Calculate the date 10 days ago
-ten_days_ago = today - timedelta(days=14)
+ten_days_ago = today - timedelta(days=15)
 
 myTickers = ["MSFT", "AAPL", "META", "GME", "AMC"]
 
@@ -35,6 +35,7 @@ for ticker in myTickers:
         plt.ylabel('Closing Price')
         plt.axis((9, 0, min_price, max_price))
         plt.title(f"{ticker} Last 10 Closing Prices")
+        plt.gca().invert_xaxis()
         plt.savefig(f"charts/{ticker}.png")
         plt.show()
 
