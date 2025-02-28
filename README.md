@@ -16,7 +16,6 @@ This project will be using the packages NumPy and Matplotlib in order to create 
 ```
 pip install -r requirements.txt
 ```
-More requirements is to download the dataset which can be found at https://www.kaggle.com/datasets/puzanov/top-200-universities-in-north-america?resource=download. 
 
 
 ### Executing program
